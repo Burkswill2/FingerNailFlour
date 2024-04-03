@@ -61,6 +61,6 @@ def process_data(file_path, output_file):
 
 # Call the function and save the results. # Replace 'YourOutputFolder' with your folder name and 'all_sets_avgs'
 # with the name you want the file saved under. Add to the path as needed.
-file_path = '/Users/willburks/Desktop/data/FT1.csv'  # Replace with the file path
+file_path = '/Users/willburks/Desktop/data/Book1.csv.csv'  # Replace with the file path
 output_file = os.path.join(os.path.expanduser('~'), 'Desktop', 'data', 'all_sets_avgs.csv')
 process_data(file_path, output_file)

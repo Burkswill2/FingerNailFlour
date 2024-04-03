@@ -118,6 +118,6 @@ def calculate_statistics(data):
 
 
 # Example call to process_data with output file path
-file_path = '/Users/willburks/Desktop/data/FT1.csv'  # Replace with the actual file path
-output_file = '/Users/willburks/Desktop/data/AnalysisResults.xlsx'  # Specify the desired output file path
+file_path = '/Users/willburks/Desktop/data/Book1.csv'  # Replace with the actual file path
+output_file = '/Users/willburks/Desktop/data/Book1Results.xlsx'  # Specify the desired output file path
 process_data(file_path, 10, output_file)
