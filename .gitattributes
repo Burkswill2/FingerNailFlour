@@ -1,0 +1,2 @@
+*.czi filter=lfs diff=lfs merge=lfs -text
+Demo/od58[[:space:]]24let99_2023_04_26__19_39_46.czi filter=lfs diff=lfs merge=lfs -text

@@ -4,7 +4,7 @@ from scipy import stats
 
 def process_data(file_path, num_bins, output_file):
     """
-    Processes fluorescence data to analyze cortical and cytosolic expression in bins across a spatial gradient.
+    Processes fluorescence data to analyze cortical and cystolic expression in bins across a spatial gradient.
 
     Parameters:
     - file_path: The path to the CSV file containing the data.
@@ -118,6 +118,6 @@ def calculate_statistics(data):
 
 
 # Example call to process_data with output file path
-file_path = '/Users/willburks/Desktop/data/Book1.csv'  # Replace with the actual file path
+file_path = '/Users/willburks/Desktop/data/input.csv'  # Replace with the actual file path
 output_file = '/Users/willburks/Desktop/data/Book1Results.xlsx'  # Specify the desired output file path
 process_data(file_path, 10, output_file)
